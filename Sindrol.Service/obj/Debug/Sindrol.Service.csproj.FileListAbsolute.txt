@@ -1,0 +1,7 @@
+D:\Projects\SindrolRemote\Sindrol.Service\bin\Debug\Sindrol.Service.dll
+D:\Projects\SindrolRemote\Sindrol.Service\bin\Debug\Sindrol.Service.pdb
+D:\Projects\SindrolRemote\Sindrol.Service\bin\Debug\Eneter.Messaging.Framework.dll
+D:\Projects\SindrolRemote\Sindrol.Service\bin\Debug\Eneter.Messaging.Framework.xml
+D:\Projects\SindrolRemote\Sindrol.Service\obj\Debug\Sindrol.Service.dll
+D:\Projects\SindrolRemote\Sindrol.Service\obj\Debug\Sindrol.Service.pdb
+D:\Projects\SindrolRemote\Sindrol.Service\obj\Debug\Sindrol.Service.csprojResolveAssemblyReference.cache

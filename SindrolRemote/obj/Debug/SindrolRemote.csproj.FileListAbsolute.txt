@@ -1,0 +1,11 @@
+D:\Projects\SindrolRemote\SindrolRemote\bin\Debug\Cocon90.Lib.Util.dll
+D:\Projects\SindrolRemote\SindrolRemote\bin\Debug\Eneter.Messaging.Framework.dll
+D:\Projects\SindrolRemote\SindrolRemote\bin\Debug\Cocon90.Lib.Util.xml
+D:\Projects\SindrolRemote\SindrolRemote\bin\Debug\Eneter.Messaging.Framework.xml
+D:\Projects\SindrolRemote\SindrolRemote\obj\Debug\SindrolRemote.csprojResolveAssemblyReference.cache
+D:\Projects\SindrolRemote\SindrolRemote\bin\Debug\Sindrol.Model.dll
+D:\Projects\SindrolRemote\SindrolRemote\bin\Debug\Sindrol.Model.pdb
+D:\Projects\SindrolRemote\SindrolRemote\bin\Debug\SindrolRemote.exe
+D:\Projects\SindrolRemote\SindrolRemote\bin\Debug\SindrolRemote.pdb
+D:\Projects\SindrolRemote\SindrolRemote\obj\Debug\SindrolRemote.exe
+D:\Projects\SindrolRemote\SindrolRemote\obj\Debug\SindrolRemote.pdb

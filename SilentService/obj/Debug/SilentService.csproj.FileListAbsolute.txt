@@ -1,0 +1,13 @@
+D:\Projects\SindrolRemote\SilentService\bin\Debug\Cocon90.Lib.Util.dll
+D:\Projects\SindrolRemote\SilentService\bin\Debug\Cocon90.Lib.Util.xml
+D:\Projects\SindrolRemote\SilentService\obj\Debug\SilentService.csprojResolveAssemblyReference.cache
+D:\Projects\SindrolRemote\SilentService\bin\Debug\Eneter.Messaging.Framework.dll
+D:\Projects\SindrolRemote\SilentService\bin\Debug\Sindrol.Model.dll
+D:\Projects\SindrolRemote\SilentService\bin\Debug\Sindrol.Service.dll
+D:\Projects\SindrolRemote\SilentService\bin\Debug\Sindrol.Model.pdb
+D:\Projects\SindrolRemote\SilentService\bin\Debug\Sindrol.Service.pdb
+D:\Projects\SindrolRemote\SilentService\bin\Debug\Eneter.Messaging.Framework.xml
+D:\Projects\SindrolRemote\SilentService\bin\Debug\Shadowsocks.exe
+D:\Projects\SindrolRemote\SilentService\bin\Debug\Shadowsocks.pdb
+D:\Projects\SindrolRemote\SilentService\obj\Debug\Shadowsocks.exe
+D:\Projects\SindrolRemote\SilentService\obj\Debug\Shadowsocks.pdb

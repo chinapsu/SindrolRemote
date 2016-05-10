@@ -1,0 +1,6 @@
+D:\Projects\SindrolRemote\Thread\InputSimulator.0.1.0.0-src\InputSimulator\bin\Debug\InputSimulator.XML
+D:\Projects\SindrolRemote\Thread\InputSimulator.0.1.0.0-src\InputSimulator\bin\Debug\InputSimulator.dll
+D:\Projects\SindrolRemote\Thread\InputSimulator.0.1.0.0-src\InputSimulator\bin\Debug\InputSimulator.pdb
+D:\Projects\SindrolRemote\Thread\InputSimulator.0.1.0.0-src\InputSimulator\obj\Debug\InputSimulator.csprojResolveAssemblyReference.cache
+D:\Projects\SindrolRemote\Thread\InputSimulator.0.1.0.0-src\InputSimulator\obj\Debug\InputSimulator.dll
+D:\Projects\SindrolRemote\Thread\InputSimulator.0.1.0.0-src\InputSimulator\obj\Debug\InputSimulator.pdb

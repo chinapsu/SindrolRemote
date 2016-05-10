@@ -1,0 +1,71 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using Sindrol.Model.Message;
+using Sindrol.Service.NotifyLib;
+using Sindrol.Model.Enums;
+using Sindrol.Model.Utils;
+using Cocon90.Lib.Util.GZip;
+using Sindrol.Service;
+
+namespace SilentService.Service.AsClient
+{
+    public class ClientMessageHandler
+    {
+
+        private ScreenSendRepeater screenSendRepeater = null;//截屏线程。
+        public ClientMessageHandler()
+        {
+            this.screenSendRepeater = new ScreenSendRepeater(300, 10, 5, 300);//启动后将每隔指定毫秒发送图像
+        }
+
+        public void MessageHandler(MessageEntry msg)
+        {
+            if (msg == null || msg.ToSn != Notify.notifyClient.ClientSn) return;
+            this.screenSendRepeater.TargetSn = msg.FromSn;
+            //if (msg.MessageType == MessageTypes.ToClient_DoMouseAction)
+            //{//收到主机命令：开始变动鼠标位置和操作
+            //    return;
+            //}
+            //if (msg.MessageType == MessageTypes.ToClient_DoKeyBoardAction)
+            //{//收到主机命令：清空远程桌面图像缓冲，并返回图片。
+            //    return;
+            //}
+            if (msg.MessageType == MessageTypes.ToClient_ClearRemoteScreenCache)
+            {//收到主机命令：清空远程桌面图像缓冲，并返回图片。
+                this.screenSendRepeater.ResetRemoteScreenCache();
+                this.screenSendRepeater.DoWorkOnce();
+                return;
+            }
+            if (msg.MessageType == MessageTypes.ToClient_ConnectCheck)
+            {//收到主机命令：要求与服务器握手
+                CommonMessage.SendMessage(msg.FromSn, MessageTypes.ToServer_ConnectCheck);
+                return;
+            }
+            if (msg.MessageType == MessageTypes.ToClient_StopControl)
+            {//收到主机命令：主机已停止当前控制任务。
+                screenSendRepeater.Stop();
+                return;
+            }
+            if (msg.MessageType == MessageTypes.ToClient_StartReturnScreen)
+            {//收到主机命令：开始返回屏幕画面
+                this.screenSendRepeater.ResetRemoteScreenCache();
+                screenSendRepeater.Start();
+                return;
+            }
+            //if (msg.MessageType == MessageTypes.ToClient_SetImageQualityNumber)
+            //{//收到主机命令：设置屏幕发送质量
+            //    ScreenHelper.ImageThumbnail = (int)msg.MessageData;
+            //    return;
+            //}
+            //if (msg.MessageType == MessageTypes.ToClient_GetClientScreenSize)
+            //{//收到主机命令：返回屏幕大小
+            //    CommonMessage.SendMessage(this.TargetSn, MessageTypes.ToServer_GetClientScreenSize, ScreenCapture.getScreenSize());
+            //    return;
+            //}
+        }
+
+        
+    }
+}

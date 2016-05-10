@@ -1,0 +1,7 @@
+D:\Projects\SindrolRemote\Sindrol.Model\bin\Debug\Sindrol.Model.dll
+D:\Projects\SindrolRemote\Sindrol.Model\bin\Debug\Sindrol.Model.pdb
+D:\Projects\SindrolRemote\Sindrol.Model\obj\Debug\Sindrol.Model.dll
+D:\Projects\SindrolRemote\Sindrol.Model\obj\Debug\Sindrol.Model.pdb
+D:\Projects\SindrolRemote\Sindrol.Model\bin\Debug\Cocon90.Lib.Util.dll
+D:\Projects\SindrolRemote\Sindrol.Model\bin\Debug\Cocon90.Lib.Util.xml
+D:\Projects\SindrolRemote\Sindrol.Model\obj\Debug\Sindrol.Model.csprojResolveAssemblyReference.cache
